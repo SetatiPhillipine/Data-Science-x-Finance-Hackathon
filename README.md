@@ -260,13 +260,13 @@ Every team member should follow this workflow:
 
 | Role | Responsibility |
 |------|----------------|
-| Team Leader | Project planning, GitHub management, SDLC |
-| Data Engineer | Data cleaning and preprocessing |
-| Data Scientist | Machine Learning and evaluation |
-| Frontend Developer | React dashboard |
-| Documentation Lead | Reports and documentation |
+| Setati Phuti(Team Lead)| Project planning, GitHub management, SDLC,Reports and Documentation |
+| Louisa Mdluli | Data cleaning and preprocessing |
+| Simamkele Jokose| Machine Learning and evaluation |
+|  | React dashboard |
+|Kabelo Ngwenya  | Creating Grapgs & Future Engineering|
 
-*(Replace the roles with your team members' names.)*
+
 
 ---
 
@@ -308,7 +308,7 @@ Special thanks to:
 - Hackathon Organisers
 - Industry Partners
 - Mentors and Facilitators
-
+- Standard Bank
 ---
 
 # License
