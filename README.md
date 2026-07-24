@@ -1,186 +1,318 @@
-# Fraud Detection System using Machine Learning
+# Finance Fraud Detection System
 
-### Data Science Club Finance & Digital Innovation Hackathon 2026
+<div align="center">
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-success?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)
 
-This repository contains our team's submission for the **Data Science Club Finance & Digital Innovation Hackathon 2026**. The project addresses one of the financial sector's biggest challenges—detecting fraudulent financial transactions using data science and machine learning.
+### Data Science Club Finance & Digital Innovation Hackathon
 
-Financial institutions process millions of transactions every day, making it difficult to manually identify fraudulent activities. Our solution uses historical transaction data to identify suspicious transaction patterns, classify transactions as legitimate or fraudulent, and generate insights that assist banks in reducing financial crime and improving risk management.
+An AI-powered Fraud Detection System built using **Python**, **Machine Learning**, **Data Science**, **React**, and **Software Engineering** principles to detect fraudulent financial transactions and provide actionable business insights.
 
-The project follows the **Software Development Life Cycle (SDLC)**, beginning with problem analysis and data exploration, followed by system design, data preprocessing, machine learning model development, testing, evaluation, and presentation of business recommendations.
+</div>
+
+---
+
+# Project Overview
+
+Financial fraud remains one of the largest challenges faced by banks and financial institutions. Millions of digital transactions occur every day, making manual fraud detection inefficient and increasingly unreliable.
+
+This project uses Machine Learning to analyse financial transaction data, identify suspicious activities, evaluate predictive performance, and present results through an interactive React dashboard. The solution follows the Agile Software Development Life Cycle (SDLC) and demonstrates industry-standard software engineering practices.
 
 ---
 
 # Project Objectives
 
-* Detect fraudulent financial transactions using machine learning.
-* Explore and analyse transaction data through Exploratory Data Analysis (EDA).
-* Identify patterns and trends associated with fraudulent activity.
-* Build and evaluate predictive machine learning models.
-* Provide actionable recommendations to improve fraud prevention.
-* Demonstrate the solution through data visualisations and an interactive dashboard.
+- Detect fraudulent transactions using Machine Learning.
+- Perform Data Cleaning and Preprocessing.
+- Conduct Exploratory Data Analysis (EDA).
+- Train and evaluate classification models.
+- Visualise fraud trends.
+- Build an interactive React dashboard.
+- Produce business recommendations.
+- Demonstrate effective GitHub collaboration.
 
 ---
 
-# Technologies Used
+# Technology Stack
 
-### Programming Languages
-
-* Python
-* JavaScript
-* HTML5
-* CSS3
-
-### Python Libraries
-
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
-
-### Development Tools
-
-* Jupyter Notebook / Google Colab
-* Git & GitHub
-* Visual Studio Code
-
-### Bonus Technology
-
-* React.js (Interactive Fraud Monitoring Dashboard)
+| Category | Technologies |
+|-----------|--------------|
+| Programming | Python, JavaScript |
+| Frontend | React, HTML5, CSS3 |
+| Data Science | Pandas, NumPy, Matplotlib |
+| Machine Learning | Scikit-learn |
+| Development | Jupyter Notebook, VS Code |
+| Version Control | Git, GitHub |
 
 ---
 
 # Repository Structure
 
-```text
+```
 Fraud-Detection-System/
 │
-├── data/
-│   ├── raw_dataset.csv
-│   └── cleaned_dataset.csv
-│
-├── notebooks/
-│   └── Fraud_Detection_Model.ipynb
-│
-├── dashboard/
-│   └── React Dashboard
-│
-├── report/
-│   └── Modelling_Report.pdf
-│
-├── presentation/
-│   └── Hackathon_Presentation.pdf
-│
-├── images/
-│
 ├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
 │
-└── requirements.txt
+├── docs/
+├── data/
+├── notebooks/
+├── src/
+├── dashboard/
+├── models/
+├── images/
+└── presentation/
 ```
 
 ---
 
-# Project Workflow
+# Quick Navigation
 
-```text
-Financial Transaction Dataset
-            │
-            ▼
-Data Cleaning & Preprocessing
-            │
-            ▼
-Exploratory Data Analysis (EDA)
-            │
-            ▼
+## Documentation
+
+| Document | Link |
+|----------|------|
+| Problem Statement | [Problem_Statement.md](docs/Problem_Statement.md) |
+| Project Proposal | [Project_Proposal.md](docs/Project_Proposal.md) |
+| Software Requirements Specification | [SRS.md](docs/SRS.md) |
+| Software Design Specification | [SDS.md](docs/SDS.md) |
+| Software Development Life Cycle | [SDLC.md](docs/SDLC.md) |
+| Architecture | [Architecture.md](docs/Architecture.md) |
+| AI Reflection | [AI_Reflection.md](docs/AI_Reflection.md) |
+| Testing Report | [Testing_Report.md](docs/Testing_Report.md) |
+| Business Recommendations | [Business_Recommendations.md](docs/Business_Recommendations.md) |
+| User Manual | [User_Manual.md](docs/User_Manual.md) |
+| Final Report | [Final_Report.md](docs/Final_Report.md) |
+
+---
+
+## Jupyter Notebooks
+
+| Notebook | Purpose |
+|----------|---------|
+| [01_Data_Exploration.ipynb](notebooks/01_Data_Exploration.ipynb) | Load and inspect the dataset |
+| [02_Data_Cleaning.ipynb](notebooks/02_Data_Cleaning.ipynb) | Clean and preprocess data |
+| [03_EDA.ipynb](notebooks/03_EDA.ipynb) | Exploratory Data Analysis |
+| [04_Model_Training.ipynb](notebooks/04_Model_Training.ipynb) | Train Machine Learning models |
+| [05_Model_Evaluation.ipynb](notebooks/05_Model_Evaluation.ipynb) | Evaluate model performance |
+| [Final_Model.ipynb](notebooks/Final_Model.ipynb) | Final prediction pipeline |
+
+---
+
+## Source Code
+
+| Folder | Description |
+|---------|-------------|
+| preprocessing | Data preprocessing scripts |
+| visualization | Charts and graphs |
+| models | Machine Learning algorithms |
+| prediction | Fraud prediction logic |
+| utils | Helper functions |
+
+---
+
+## Data
+
+| Folder | Purpose |
+|---------|---------|
+| raw | Original dataset |
+| processed | Cleaned dataset |
+| sample | Sample datasets for testing |
+
+---
+
+## Dashboard
+
+| Folder | Purpose |
+|---------|---------|
+| frontend | React application |
+| backend | API and backend services |
+
+---
+
+## Presentation
+
+- [Slides.pptx](presentation/Slides.pptx)
+- [Presentation.pdf](presentation/Presentation.pdf)
+
+---
+
+# Machine Learning Workflow
+
+```
+Financial Dataset
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
 Feature Engineering
-            │
-            ▼
-Machine Learning Model Training
-            │
-            ▼
+        │
+        ▼
+Model Training
+        │
+        ▼
 Model Evaluation
-            │
-            ▼
+        │
+        ▼
 Fraud Prediction
-            │
-            ▼
-Business Insights & Recommendations
-            │
-            ▼
-Interactive Dashboard (Bonus)
+        │
+        ▼
+React Dashboard
+        │
+        ▼
+Business Recommendations
 ```
 
 ---
 
-# Features
+# Installation
 
-* Data Cleaning and Preprocessing
-* Exploratory Data Analysis (EDA)
-* Data Visualisation
-* Feature Engineering
-* Fraud Classification using Machine Learning
-* Model Performance Evaluation
-* Business Recommendations
-* Interactive Dashboard (Bonus)
+Clone the repository.
 
----
+```bash
+git clone https://github.com/YOUR_USERNAME/Fraud-Detection-System.git
+```
 
-# Machine Learning Pipeline
+Navigate into the project.
 
-The machine learning process includes:
+```bash
+cd Fraud-Detection-System
+```
 
-* Importing and cleaning the dataset
-* Handling missing values
-* Feature selection and engineering
-* Splitting the dataset into training and testing sets
-* Training classification models
-* Evaluating model performance using:
+Install Python dependencies.
 
-  * Accuracy
-  * Precision
-  * Recall
-  * F1-Score
-* Predicting fraudulent transactions
-* Interpreting results and generating recommendations
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook.
+
+```bash
+jupyter notebook
+```
 
 ---
 
-# Expected Outcome
+# Running the Dashboard
 
-Our system is designed to:
+Navigate to the frontend.
 
-* Detect suspicious financial transactions.
-* Assist financial institutions in identifying potential fraud.
-* Reduce financial losses through early fraud detection.
-* Provide meaningful insights through visual analytics.
-* Support data-driven decision-making.
+```bash
+cd dashboard/frontend
+```
+
+Install dependencies.
+
+```bash
+npm install
+```
+
+Start the application.
+
+```bash
+npm start
+```
+
+---
+
+# Evaluation Metrics
+
+The Machine Learning models will be evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC Score
+- Confusion Matrix
+
+The final evaluation results will be added after training on the official hackathon dataset.
+
+---
+
+# GitHub Workflow
+
+Every team member should follow this workflow:
+
+1. Pull the latest changes.
+2. Create a new feature branch.
+3. Develop the assigned feature.
+4. Commit changes.
+5. Push to GitHub.
+6. Open a Pull Request.
+7. Request review.
+8. Merge after approval.
+
+---
+
+# Team Roles
+
+| Role | Responsibility |
+|------|----------------|
+| Team Leader | Project planning, GitHub management, SDLC |
+| Data Engineer | Data cleaning and preprocessing |
+| Data Scientist | Machine Learning and evaluation |
+| Frontend Developer | React dashboard |
+| Documentation Lead | Reports and documentation |
+
+*(Replace the roles with your team members' names.)*
 
 ---
 
 # Future Improvements
 
-* Real-time fraud detection
-* AI-powered fraud explanations
-* Live transaction monitoring dashboard
-* Cloud deployment
-* API integration with banking systems
-* Advanced anomaly detection models
+- Real-time fraud detection
+- Explainable AI (XAI)
+- Cloud deployment
+- Banking API integration
+- Deep Learning models
+- Mobile application
+- Automated fraud alerts
+- Live monitoring dashboard
 
 ---
 
-# Team
+# Project Status
 
-Developed as part of the **Data Science Club Finance & Digital Innovation Hackathon 2026**.
+Current Development Phase
 
-Our team combines software development, data analysis, and machine learning to build a practical fraud detection solution capable of supporting financial institutions in combating financial crime through intelligent, data-driven decision-making.
+- Documentation
+- GitHub Setup
+- Data Science Preparation
+- Machine Learning Development
+- React Dashboard Development
+
+The repository will continue to be updated throughout the hackathon as new datasets, models, visualisations, documentation, and evaluation results become available.
+
+---
+
+# Acknowledgements
+
+This project was developed for the **Data Science Club Finance & Digital Innovation Hackathon**.
+
+Special thanks to:
+
+- Sol Plaatje University
+- Data Science Club
+- Hackathon Organisers
+- Industry Partners
+- Mentors and Facilitators
 
 ---
 
 # License
 
-This project was developed for educational and hackathon purposes. It is intended solely for learning, research, and demonstration and is **not intended for production use with real banking systems**.
+This project is licensed under the MIT License.
 
----
-
-> **"Using Data Science and Machine Learning to build smarter, safer financial systems."**
+See the [LICENSE](LICENSE) file for more information.
