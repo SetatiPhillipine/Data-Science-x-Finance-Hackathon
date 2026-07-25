@@ -1,70 +1,149 @@
-1. SDLC.md
-Title
-Software Development Life Cycle (SDLC)
-Content
-Methodology
+#  Software Development Life Cycle (SDLC)
 
-Our team will follow the Agile Software Development Life Cycle throughout the hackathon. Due to the limited development time (2 days), Agile enables rapid development, continuous testing, collaboration, and quick adaptation to feedback.
+## **Project: Financial Fraud Detection System**
 
-Phase 1 — Planning
+**Team: PMP Solutions (Predict • Monitor • Protect)**
 
-Objectives
 
-Understand the problem statement
-Identify fraud detection requirements
-Assign team roles
-Prepare GitHub repository
-Set milestones
+## **1. Planning Phase**
 
-Deliverables
+### **Objective**
 
-Team roles
-Project plan
-GitHub repository
-Phase 2 — Requirements Analysis
+The objective of this project is to develop a machine learning-based system capable of detecting fraudulent financial transactions accurately and efficiently.
 
-Activities
+### **Goals**
 
-Understand the dataset
-Identify input variables
-Define expected output
-Understand business problem
+* Detect fraudulent transactions
+* Reduce false positives
+* Improve fraud detection speed
+* Provide explainable AI insights
+* Visualize fraud trends
 
-Expected Output
+### **Resources**
 
-A machine learning model capable of detecting fraudulent transactions.
+* Python
+* Google Colab
+* GitHub
+* Pandas, NumPy
+* Scikit-learn
+* Plotly
+* SHAP
+* Matplotlib, Seaborn
 
-Phase 3 — Design
+### **Team Roles**
 
-Activities
+* Project Manager
+* Data Analyst
+* Machine Learning Engineer
+* Dashboard Developer
+* Documentation Specialist
 
-Design architecture
-Plan notebook workflow
-Design React dashboard
-Plan visualizations
-Phase 4 — Development
 
-Activities
+## **2. Analysis Phase**
 
-Data cleaning
-Exploratory Data Analysis
-Feature engineering
-Machine learning
-Dashboard development
-Phase 5 — Testing
+In this phase, the dataset was examined to understand its structure and identify relevant features for fraud detection.
 
-Activities
+### **Activities**
 
-Validate predictions
-Test dashboard
-Evaluate model
+* Data exploration
+* Checking missing values
+* Removing duplicates
+* Identifying outliers
+* Analyzing fraud distribution
+* Understanding transaction types
 
-Metrics
+### **Key Features Identified**
 
-Precision
-Recall
-F1 Score
-ROC-AUC
-Phase 6 — Deployment
+* Transaction amount
+* Transaction type
+* Sender balance
+* Receiver balance
+* Fraud label (*isFraud*)
 
-Although deployment is outside the scope of the hackathon, our dashboard will simulate how banks could use the fraud detection system in production.
+
+## **3. Design Phase**
+
+### **System Design**
+
+The system is designed as a machine learning pipeline consisting of:
+
+* Data collection
+* Data preprocessing
+* Exploratory Data Analysis
+* Feature engineering
+* Model training
+* Model evaluation
+* Explainable AI (SHAP)
+* Interactive dashboard (Plotly)
+
+### **Workflow**
+
+1. Load dataset
+2. Clean and preprocess data
+3. Analyze and visualize data
+4. Train model
+5. Evaluate model
+6. Generate insights
+
+
+## **4. Implementation Phase**
+
+The system was implemented using Python in Google Colab.
+
+### **Steps**
+
+* Import required libraries
+* Load dataset
+* Clean data
+* Perform Exploratory Data Analysis
+* Train machine learning model
+* Evaluate performance
+* Generate SHAP explanations
+* Build Plotly dashboard
+
+
+## **5. Testing Phase**
+
+The system was tested to ensure accuracy and reliability.
+
+### **Evaluation Metrics**
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* ROC-AUC
+
+### **Testing Activities**
+
+* Data validation
+* Model performance testing
+* Prediction verification
+* Dashboard testing
+
+
+## **6. Deployment Phase (Conceptual)**
+
+The system can be deployed in real-world environments such as:
+
+* Banking systems
+* Online payment platforms
+* Fraud monitoring systems
+
+It can operate in real-time to detect suspicious transactions.
+
+
+## **7. Maintenance Phase**
+
+To ensure long-term effectiveness, the system requires continuous updates.
+
+### **Maintenance Activities**
+
+* Updating datasets
+* Retraining models
+* Improving accuracy
+* Monitoring system performance
+* Updating dashboards
+
+If you want next:
+I can turn this into **slides + speaking lines** so you come back with that **PMG energy but smarter this time** 😎
